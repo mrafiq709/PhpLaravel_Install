@@ -54,3 +54,11 @@ composer global require laravel/installer
 
 </br>
 <a href="https://imgur.com/RGGW1eu"><img src="https://i.imgur.com/RGGW1eu.png" title="source: imgur.com" /></a>
+
+Laravel Project Create:
+-------------------------------------
+
+Step 1: Go to the directory Where you can create the project
+Step 2: composer create-project --prefer-dist laravel/laravel project_name
+
+For Run see: https://github.com/rafiq-istvn/ApacheServerCentos7
