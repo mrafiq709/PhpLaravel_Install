@@ -13,6 +13,7 @@ Step 3: How to Install PHP 7.3 on CentOS 7 / Fedora
 -------------------------------------------------------
 
 sudo yum -y install php php-cli php-fpm php-mysqlnd php-zip php-devel php-gd php-mcrypt php-mbstring php-curl php-xml php-pear php-bcmath php-json
+sudo yum --enablerepo=epl install php-pecl-zip
 sudo yum install php-mysql
 php -v
 
@@ -30,3 +31,12 @@ Laravel Installation:
 ----------------------------
 
 composer global require laravel/installer
+
+Laravel Project Create:
+-------------------------------------
+
+Step 1: Go to the directory Where you can create the project
+Step 2: composer create-project --prefer-dist laravel/laravel project_name
+
+For Run see: https://github.com/rafiq-istvn/ApacheServerCentos7
+
