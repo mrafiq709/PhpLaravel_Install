@@ -11,9 +11,8 @@ Step 1: Add PHP 7.3 Remi repository
 Step 2: Disable repo for PHP 5.4
 ------------------------------------
 
-sudo yum-config-manager --disable remi-php54
-
-sudo yum-config-manager --enable remi-php73
+    sudo yum-config-manager --disable remi-php54
+    sudo yum-config-manager --enable remi-php73
 
 Step 3: How to Install PHP 7.3 on CentOS 7 / Fedora
 -------------------------------------------------------
