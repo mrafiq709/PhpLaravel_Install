@@ -3,9 +3,10 @@ php, laravel framwork install
 
 Step 1: Add PHP 7.3 Remi repository
 ---------------------------------------
-  sudo yum -y install http://rpms.remirepo.net/enterprise/remi-release-7.rpm 
 
-  sudo yum -y install epel-release yum-utils
+    sudo yum -y install http://rpms.remirepo.net/enterprise/remi-release-7.rpm 
+
+    sudo yum -y install epel-release yum-utils
 
 
 Step 2: Disable repo for PHP 5.4
