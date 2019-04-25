@@ -17,13 +17,10 @@ Step 2: Disable repo for PHP 5.4
 Step 3: How to Install PHP 7.3 on CentOS 7 / Fedora
 -------------------------------------------------------
 
-sudo yum -y install php php-cli php-fpm php-mysqlnd php-zip php-devel php-gd php-mcrypt php-mbstring php-curl php-xml php-pear php-bcmath php-json
-
-sudo yum --enablerepo=epl install php-pecl-zip
-
-sudo yum install php-mysql
-
-php -v
+    sudo yum -y install php php-cli php-fpm php-mysqlnd php-zip php-devel php-gd php-mcrypt php-mbstring php-curl php-xml php-pear php-bcmath php-json
+    sudo yum --enablerepo=epl install php-pecl-zip
+    sudo yum install php-mysql
+    php -v
 
 
 
