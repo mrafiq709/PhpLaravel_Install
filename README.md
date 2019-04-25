@@ -26,19 +26,15 @@ Step 3: How to Install PHP 7.3 on CentOS 7 / Fedora
 
 Composer Installation:
 -----------------------------
-php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-
-php -r "if (hash_file('sha384', 'composer-setup.php') === '48e3236262b34d30969dca3c37281b3b4bbe3221bda826ac6a9a62d6444cdb0dcd0615698a5cbe587c3f0fe57a54d8f5') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
-
-php composer-setup.php
-
-php -r "unlink('composer-setup.php');"
-
-sudo mv composer.phar /usr/local/bin/composer
+    php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+    php -r "if (hash_file('sha384', 'composer-setup.php') === '48e3236262b34d30969dca3c37281b3b4bbe3221bda826ac6a9a62d6444cdb0dcd0615698a5cbe587c3f0fe57a54d8f5') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+    php composer-setup.php
+    php -r "unlink('composer-setup.php');"
+    sudo mv composer.phar /usr/local/bin/composer
 </br>
 <a href="https://imgur.com/ynwHvgJ"><img src="https://i.imgur.com/ynwHvgJ.png" title="source: imgur.com" /></a>
 
-composer
+    composer
 </br>
 <a href="https://imgur.com/O0iwjeG"><img src="https://i.imgur.com/O0iwjeG.png" title="source: imgur.com" /></a>
 
@@ -46,7 +42,7 @@ composer
 Laravel Installation:
 ----------------------------
 
-composer global require laravel/installer
+    composer global require laravel/installer
 
 </br>
 <a href="https://imgur.com/RGGW1eu"><img src="https://i.imgur.com/RGGW1eu.png" title="source: imgur.com" /></a>
@@ -56,6 +52,6 @@ Laravel Project Create:
 
 Step 1: Go to the directory Where you can create the project
 
-Step 2: composer create-project --prefer-dist laravel/laravel project_name
+    composer create-project --prefer-dist laravel/laravel project_name
 
 For Run see: https://github.com/rafiq-istvn/ApacheServerCentos7
