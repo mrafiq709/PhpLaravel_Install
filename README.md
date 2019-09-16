@@ -1,4 +1,4 @@
-# PhpLaravel_Install
+# PhpLaravel_Install_CentOS7
 php, laravel framwork install
 
 Step 1: Add PHP 7.3 Remi repository
